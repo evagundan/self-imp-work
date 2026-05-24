@@ -1,0 +1,22 @@
+# Cache and temporary files
+cache/
+daemon/
+downloads/
+file-history/
+paste-cache/
+plans/
+session-env/
+sessions/
+shell-snapshots/
+tasks/
+telemetry/
+backups/
+history.jsonl
+
+# Sensitive files
+settings.local.json
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

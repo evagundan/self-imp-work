@@ -1,0 +1,29 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://token-plan-cn.xiaomimimo.com/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "tp-cscjjjoo62u477l054ut3dca9xnkh0ulzj9viiefnelzajk7",
+    "ANTHROPIC_MODEL": "mimo-v2.5-pro[1m]",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "mimo-v2.5-pro[1m]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "mimo-v2.5-pro[1m]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "mimo-v2.5-pro[1m]",
+    "GIT_SSH_COMMAND": "C:/Windows/System32/OpenSSH/ssh.exe",
+    "CLAUDE_MODEL": "claude-4-5-sonnet",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": 64000
+  },
+  "extraKnownMarketplaces": {
+    "addy-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "addyosmani/agent-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "agent-skills@addy-agent-skills": true
+  },
+  "permissions": {
+    "allow": [],
+    "deny": []
+  }
+}
